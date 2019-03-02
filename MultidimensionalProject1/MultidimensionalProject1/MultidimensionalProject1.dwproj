@@ -35,6 +35,18 @@
       <Name>v Dim Store.dim</Name>
       <FullPath>v Dim Store.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>v Dim Entity.dim</Name>
+      <FullPath>v Dim Entity.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Dim Geography.dim</Name>
+      <FullPath>v Dim Geography.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Store denormalized.dim</Name>
+      <FullPath>Dim Store denormalized.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
