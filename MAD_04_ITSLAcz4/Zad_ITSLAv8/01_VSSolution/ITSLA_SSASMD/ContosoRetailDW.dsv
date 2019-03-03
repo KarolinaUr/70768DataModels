@@ -1808,7 +1808,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="olap_vDimChannel" msprop:design-time-name="5cc01134-8e14-4d02-b084-19d49d190690" msprop:DbTableName="vDimChannel" msprop:FriendlyName="vDimChannel" msprop:DbSchemaName="olap" msprop:TableType="View">
+            <xs:element name="olap_vDimChannel" msprop:design-time-name="5cc01134-8e14-4d02-b084-19d49d190690" msprop:FriendlyName="vDimChannel" msprop:DbSchemaName="olap" msprop:DbTableName="vDimChannel" msprop:TableType="View">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ChannelKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="d15f0ac0-51ed-49aa-93d4-6fc3fdd178a8" msprop:DbColumnName="ChannelKey" msprop:FriendlyName="ChannelKey" type="xs:int" />
@@ -1829,25 +1829,11 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="olap_vDimCustomer" msprop:design-time-name="338ffb8f-1b61-4543-b605-a372de1c376d" msprop:DbTableName="vDimCustomer" msprop:FriendlyName="vDimCustomer" msprop:DbSchemaName="olap" msprop:TableType="View">
+            <xs:element name="olap_vDimCustomer" msprop:design-time-name="338ffb8f-1b61-4543-b605-a372de1c376d" msprop:FriendlyName="vDimCustomer" msprop:DbSchemaName="olap" msprop:DbTableName="vDimCustomer" msprop:TableType="View">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="CustomerKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="2725dc2d-b684-4c06-b481-403d80df9b8e" msprop:DbColumnName="CustomerKey" msprop:FriendlyName="CustomerKey" type="xs:int" />
                   <xs:element name="GeographyKey" msprop:design-time-name="8e763ef6-60b8-4002-9925-cab8489b3226" msprop:DbColumnName="GeographyKey" msprop:FriendlyName="GeographyKey" type="xs:int" />
-                  <xs:element name="FirstName" msprop:design-time-name="c4e44717-f0c3-4016-bc6a-301ca254d26e" msprop:DbColumnName="FirstName" msprop:FriendlyName="FirstName" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="LastName" msprop:design-time-name="026848dc-6ce7-4c7a-89dc-7aef4e377a0f" msprop:DbColumnName="LastName" msprop:FriendlyName="LastName" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
                   <xs:element name="EmailAddress" msprop:design-time-name="1350c918-6572-48c0-8b26-1c2057c1b73d" msprop:DbColumnName="EmailAddress" msprop:FriendlyName="EmailAddress" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -1890,17 +1876,17 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="CompanyName" msprop:design-time-name="caf6ee01-5139-4283-b829-4891175d4070" msprop:DbColumnName="CompanyName" msprop:FriendlyName="CompanyName" minOccurs="0">
+                  <xs:element name="CustomerFullName" msprop:DbColumnName="CustomerFullName" msprop:design-time-name="f7249a30-929d-4947-acb6-65ab97c4537f" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
-                        <xs:maxLength value="100" />
+                        <xs:maxLength value="101" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="olap_vDimPromotion" msprop:design-time-name="395d092a-6277-4ba5-82a1-85f37ed57715" msprop:DbTableName="vDimPromotion" msprop:FriendlyName="vDimPromotion" msprop:DbSchemaName="olap" msprop:TableType="View">
+            <xs:element name="olap_vDimPromotion" msprop:design-time-name="395d092a-6277-4ba5-82a1-85f37ed57715" msprop:FriendlyName="vDimPromotion" msprop:DbSchemaName="olap" msprop:DbTableName="vDimPromotion" msprop:TableType="View">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="PromotionKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="1a7f6476-5d61-430f-8039-e3cd99e63b9c" msprop:DbColumnName="PromotionKey" msprop:FriendlyName="PromotionKey" type="xs:int" />
@@ -1936,7 +1922,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="olap_vFactOnlineSales" msprop:design-time-name="7ec1ffb7-fe40-48ea-8de0-41d941cfd875" msprop:DbTableName="vFactOnlineSales" msprop:FriendlyName="vFactOnlineSales" msprop:DbSchemaName="olap" msprop:TableType="View">
+            <xs:element name="olap_vFactOnlineSales" msprop:design-time-name="7ec1ffb7-fe40-48ea-8de0-41d941cfd875" msprop:FriendlyName="vFactOnlineSales" msprop:DbSchemaName="olap" msprop:DbTableName="vFactOnlineSales" msprop:TableType="View">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="OnlineSalesKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="768f2a23-203b-4c3e-afca-d503a98a19fb" msprop:DbColumnName="OnlineSalesKey" msprop:FriendlyName="OnlineSalesKey" type="xs:int" />
@@ -1956,7 +1942,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="olap_vFactSales" msprop:design-time-name="7a7c90d4-068d-4e9f-988c-0c23970b91db" msprop:DbTableName="vFactSales" msprop:FriendlyName="vFactSales" msprop:DbSchemaName="olap" msprop:TableType="View">
+            <xs:element name="olap_vFactSales" msprop:design-time-name="7a7c90d4-068d-4e9f-988c-0c23970b91db" msprop:FriendlyName="vFactSales" msprop:DbSchemaName="olap" msprop:DbTableName="vFactSales" msprop:TableType="View">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="SalesKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="7711de6b-4126-4013-8827-46ac1dfdb24a" msprop:DbColumnName="SalesKey" msprop:FriendlyName="SalesKey" type="xs:int" />
