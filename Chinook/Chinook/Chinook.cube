@@ -1,0 +1,604 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="520de07c-301e-49ef-9fcb-2149663d1931" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Chinook</ID>
+  <Name>Chinook</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="23" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11424" scrolltop="-666" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="26458" y="11695" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_Track" left="-4160" top="5047" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3360" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000200d0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vw_Track" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="InvoiceLine" left="380" top="847" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_InvoiceLine" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Invoice" left="5780" top="1" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="3360" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000200d0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Invoice" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1100" top="3221" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="1780" height="2447" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[InvoiceLine-vw_Track]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="11" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-800" y="5268" />
+              <point x="-210" y="5268" />
+              <point x="-210" y="3521" />
+              <point x="380" y="3521" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3080" top="2023" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_InvoiceLineInvoiceId]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="18" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5780" y="2422" />
+              <point x="4580" y="2422" />
+              <point x="4580" y="2421" />
+              <point x="3380" y="2421" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_Customer" left="10940" top="446" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="3651" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000430e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vw_Customer" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_Album" left="189" top="7260" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vw_Album" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1100" top="5518" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="4589" height="3293" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[vw_Track-vw_Album]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="1" sourceattachpoint="13" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3189" y="8411" />
+              <point x="1595" y="8411" />
+              <point x="1595" y="5818" />
+              <point x="-800" y="5818" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_Playlist" left="-9759" top="1489" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vw_Playlist" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PlaylistTrack" left="-4286" top="-265" logicalid="20" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_PlaylistTrack" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-7059" top="924" logicalid="21" controlid="12" masterid="0" hint1="0" hint2="0" width="4192" height="1354" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[PlaylistTrack-vw_Playlist]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="11" sourceattachpoint="11" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-6759" y="1878" />
+              <point x="-3167" y="1878" />
+              <point x="-3167" y="1224" />
+              <point x="-4286" y="1224" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-4186" top="1314" logicalid="22" controlid="13" masterid="0" hint1="0" hint2="0" width="3206" height="4233" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[PlaylistTrack-vw_Track]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="11" sourceattachpoint="8" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-1380" y="5047" />
+              <point x="-1380" y="3463" />
+              <point x="-3886" y="3463" />
+              <point x="-3886" y="1614" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-11424</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-666</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-9759</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-265</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="fa37fcaf-1d7b-424b-934f-dce51cb74fd9">
+      <ID>Invoice</ID>
+      <Name>Invoice</Name>
+      <DimensionID>Invoice</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7650b46d-6e5f-47f7-b1c7-7f9326b93c95">
+          <AttributeID>Invoice Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9d602f42-ef5d-40a3-a1eb-6900dc7308b3">
+          <AttributeID>Customer Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="55c57a30-38a1-489c-b9ba-acaed8a62ea8">
+          <AttributeID>Invoice Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a04823b-e131-489e-b6cf-b93e568b9b1a">
+          <AttributeID>Billing Address</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7f635782-6cfc-4f41-825d-2e75b7fb8717">
+          <AttributeID>Billing City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1bd30675-2d63-49d8-a763-f749b2af67e1">
+          <AttributeID>Billing State</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="57ab3b44-e06f-449a-8eed-254f659ec3f3">
+          <AttributeID>Billing Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8c189ac5-502a-4537-bd87-3ed33dc32fb6">
+          <AttributeID>Billing Postal Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e9c5acb3-62aa-4688-a1b5-09386dfeaef7">
+          <AttributeID>Total</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f4fcb1ea-9a11-4f83-8d01-35763f9e3940">
+      <ID>Vw Track</ID>
+      <Name>Vw Track</Name>
+      <DimensionID>Vw Track</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="77308e82-7314-4607-85be-66fca01c1b78">
+          <AttributeID>Track Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9204bdcf-1aee-47a7-a91d-b9c470e46841">
+          <AttributeID>Composer</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ba7e9f0b-315c-4679-a8cb-7a1a73598ca5">
+          <AttributeID>Milliseconds</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bb055418-81f3-495c-a8bd-801287b61bc5">
+          <AttributeID>Bytes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ce7871c9-c0ba-4d3f-9f21-0ce9dbbb3152">
+          <AttributeID>Unit Price</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bbb09dfb-229e-4a4a-bba0-713c636d62e1">
+          <AttributeID>Genre Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0722b142-ca85-4c97-9eb2-ac355adc7c36">
+          <AttributeID>Media Type Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="72282ec2-a854-4038-8283-af98e54f239d">
+          <AttributeID>Album Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ce555e90-2470-4ae7-9dc1-09fe40760c3c">
+      <ID>Vw Customer</ID>
+      <Name>Vw Customer</Name>
+      <DimensionID>Vw Customer</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1c1cf17c-79fa-43d6-ba36-6d1f9ea0b5e8">
+          <AttributeID>Customer Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9d5b74ff-7fe4-4409-8f4b-df680b16683d">
+          <AttributeID>Full Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="87033fea-ef8b-479a-b2db-788dc4cdfe4c">
+          <AttributeID>Company</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e0505804-469f-4e38-8e39-6f0c1f9287d2">
+          <AttributeID>Address</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d81ff5bc-530b-4f42-b72c-fb15323106a0">
+          <AttributeID>City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="795a088c-b16e-48aa-b29a-0d8cbf1e25ce">
+          <AttributeID>State</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d2a0c12f-aa37-4bbf-95b9-c29bca91940f">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cae9d734-cacc-4a47-8d2f-8c6fc7282896">
+          <AttributeID>Postal Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2eb77a12-e46e-479e-8d35-d77c69ffeef4">
+          <AttributeID>Phone</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a853bd55-2ea8-438c-ae44-cfc473e8626e">
+          <AttributeID>Fax</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3861c51d-2384-46e7-b297-ed1bae5b476a">
+          <AttributeID>Email</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ec9cad49-d45e-4f76-a9a2-28e83d01d516">
+          <AttributeID>Suport Full Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a9d5c5eb-d2db-4528-aa10-33d87ec0b2cf">
+          <AttributeID>Suport First Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a1b48a3-53bf-4322-bc38-09623e89200a">
+          <AttributeID>Suport Title</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8bc12865-99fe-448b-bf08-7199d9319ac0">
+          <AttributeID>Suport Reports To</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d3cbd6e6-fb40-4553-94c5-557f65f08508">
+          <AttributeID>Suport Birth Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="845872fc-9780-4860-bb17-95c840fb12cb">
+          <AttributeID>Suport Hire Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7474793c-15d0-4d0f-b25c-fd71ff8ec47b">
+          <AttributeID>Suport Address</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3561b5d4-1d61-4e06-ab47-9b262fc8f7e4">
+          <AttributeID>Suport City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="62e7ae0a-bd8e-4a70-b3f8-93db76268213">
+          <AttributeID>Suport State</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1aa01d9d-42bb-40d9-91e8-e8edecf7bddf">
+          <AttributeID>Suport Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c960e653-5d6d-483a-b99e-596cad9e81f6">
+          <AttributeID>Suport Postal Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="93bad4a8-a8d9-44f9-8c24-962f12efbb71">
+          <AttributeID>Suport Phone</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4a4e31c1-2cd9-48c2-9db2-ef3f141efc62">
+          <AttributeID>Suport Fax</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="51e455a1-271d-4d11-a450-c94b1e28967f">
+          <AttributeID>Suport Email</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="bf0e3d1b-2c41-4598-b222-a1a0ad4f0fd2">
+      <ID>Vw Album</ID>
+      <Name>Vw Album</Name>
+      <DimensionID>Vw Album</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="43876f79-9add-43f1-b6a6-c154344a08ba">
+          <AttributeID>Album Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="0395ee84-7508-457a-b621-8bdecd57b802">
+      <ID>Vw Playlist</ID>
+      <Name>Vw Playlist</Name>
+      <DimensionID>Vw Playlist</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="41def9a0-d675-4c81-8ca5-89b9099b632e">
+          <AttributeID>Playlist Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="2842e7b3-ecc3-4cdb-9681-3ba7bce0ece0">
+      <ID>Invoice Line</ID>
+      <Name>Invoice Line</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="fbd5ddc5-70ca-4be7-a127-f8f57c4f3225">
+          <ID>Unit Price</ID>
+          <Name>Unit Price</Name>
+          <Source dwd:design-time-name="79e9ccdb-769f-4411-abdc-0cac3feed787">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="87bd2897-147d-46cc-a921-a2d8e998857d">
+              <TableID>dbo_InvoiceLine</TableID>
+              <ColumnID>UnitPrice</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b2c4c9c5-85f2-4562-ac92-e589ebfa2383">
+          <ID>Quantity</ID>
+          <Name>Quantity</Name>
+          <Source dwd:design-time-name="914ece71-96c0-4a34-a1cd-51a1c81d4564">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="55f74e97-3274-4c99-a9fa-d86c42076d21">
+              <TableID>dbo_InvoiceLine</TableID>
+              <ColumnID>Quantity</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b14d90dd-9021-4d8e-8f8e-6f27e142990a">
+          <ID>Invoice Line Count</ID>
+          <Name>Invoice Line Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="73b38734-f84c-45e7-8f5c-8be650ee270e">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="575043bf-dc62-4478-8328-cf27b8b7c4c0">
+              <TableID>dbo_InvoiceLine</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="21990f66-52c5-427d-a332-f6890f45255f">
+          <CubeDimensionID>Invoice</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a6f213cc-08db-4392-bde1-2bd3f8393587">
+              <AttributeID>Invoice Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="69f51ac8-9c5c-47d7-a429-9fa8457d2985">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d0789e8b-5ddc-4c86-bc76-032b2795ced1">
+                    <TableID>dbo_InvoiceLine</TableID>
+                    <ColumnID>InvoiceId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="944997e6-b03d-4ab0-b865-0959e4a7aaa8">
+          <CubeDimensionID>Vw Track</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f3cb84dc-e081-4ccf-9283-ccc8553d22a8">
+              <AttributeID>Track Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5d9cd200-d381-45fd-a981-a976c5feebb4">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5395b7cc-8a18-49c8-ac9d-99044cebdcd6">
+                    <TableID>dbo_InvoiceLine</TableID>
+                    <ColumnID>TrackId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="a84f5919-b0b2-4716-bffc-90a509a8ab46">
+          <CubeDimensionID>Vw Customer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d3de4644-b9c6-4524-ac17-5720ba3fbfb3">
+              <AttributeID>Customer Id</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Invoice</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Customer Id</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="9b5053dd-1948-4316-96d2-5da323d8cbd1">
+          <CubeDimensionID>Vw Album</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="091c7c31-5081-411c-9955-e6ff2afff32d">
+              <AttributeID>Album Id</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Vw Track</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Album Id</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="4ee88c4a-2213-41e5-9d64-32aac0d51771">
+          <CubeDimensionID>Vw Playlist</CubeDimensionID>
+          <MeasureGroupID>Playlist Track</MeasureGroupID>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="848aea93-7dd0-4f8c-875d-eed81ca47c3d">
+      <ID>Playlist Track</ID>
+      <Name>Playlist Track</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Type>ExchangeRate</Type>
+      <Measures>
+        <Measure dwd:design-time-name="e4d3dfcf-9099-4dcf-839a-bf3684e10956">
+          <ID>Playlist Track Count</ID>
+          <Name>Playlist Track Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="6fbd6ec5-dd83-4e17-a6ed-c783d764d97b">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="4eee42ab-f80b-4be7-81ee-6d8975d3b7bf">
+              <TableID>dbo_PlaylistTrack</TableID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="afdf53c5-7a86-4d66-b75d-95df006077e0">
+          <CubeDimensionID>Vw Playlist</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cd91d140-ceb3-4437-9426-8ccb38af74c7">
+              <AttributeID>Playlist Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a254f2e5-53f1-4ec6-a6fe-b4ca0f42c01c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8664cbb1-129b-4eb6-a5cf-10a94561fc89">
+                    <TableID>dbo_PlaylistTrack</TableID>
+                    <ColumnID>PlaylistId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7b1260c4-ed6f-4b9f-8db9-de4f20b3bfe8">
+          <CubeDimensionID>Vw Track</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="80879956-dcf1-4e26-bff2-6ed142ae9e1f">
+              <AttributeID>Track Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8e795443-b6fa-448f-8133-de896b94e62d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e5145449-0c77-4bd9-9256-a4928baa47e5">
+                    <TableID>dbo_PlaylistTrack</TableID>
+                    <ColumnID>TrackId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="21b6a930-0fe7-4010-9c24-0da37ba689bf">
+          <CubeDimensionID>Vw Album</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e73fa9e0-5358-44dc-9810-5eff4f4e7118">
+              <AttributeID>Album Id</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Vw Track</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Album Id</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="66eb09a2-82ce-4925-8b1c-a9053d2981e9">
+    <DataSourceViewID>Chinook</DataSourceViewID>
+  </Source>
+</Cube>
