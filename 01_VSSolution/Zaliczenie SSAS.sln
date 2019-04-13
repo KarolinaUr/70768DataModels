@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Zaliczenie SSAS", "ITSLA_SSASMD\Zaliczenie SSAS.dwproj", "{67953C8E-58A8-4CC6-B7B4-18A58028BBDE}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Zaliczenie WWI", "Zaliczenie WWI\Zaliczenie WWI.dwproj", "{C0AD9FDA-9C72-4DC3-9C63-DB78139014D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -13,6 +15,9 @@ Global
 		{67953C8E-58A8-4CC6-B7B4-18A58028BBDE}.Development|Default.ActiveCfg = Development
 		{67953C8E-58A8-4CC6-B7B4-18A58028BBDE}.Development|Default.Build.0 = Development
 		{67953C8E-58A8-4CC6-B7B4-18A58028BBDE}.Development|Default.Deploy.0 = Development
+		{C0AD9FDA-9C72-4DC3-9C63-DB78139014D7}.Development|Default.ActiveCfg = Development
+		{C0AD9FDA-9C72-4DC3-9C63-DB78139014D7}.Development|Default.Build.0 = Development
+		{C0AD9FDA-9C72-4DC3-9C63-DB78139014D7}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
